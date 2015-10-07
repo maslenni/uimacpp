@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="uimacpp" targetName="libapr-1" />
+      <config projectName="uimacpp" targetName="uimacpp" />
+      <config projectName="uimacpp" targetName="apr" />
+      <config projectName="uimacpp" targetName="uimacpp-app" />
+      <config projectName="uimacpp" targetName="libapr" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="c2d09da3-dfad-429f-b00f-9742a1dd343b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/ActiveMQAnalysisEngineService.cpp" afterPath="$PROJECT_DIR$/utils/ActiveMQAnalysisEngineService.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/annotator.cpp" afterPath="$PROJECT_DIR$/framework/annotator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/annotator.hpp" afterPath="$PROJECT_DIR$/framework/uima/annotator.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/annotator_abase.hpp" afterPath="$PROJECT_DIR$/framework/uima/annotator_abase.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/annotator_api.h" afterPath="$PROJECT_DIR$/framework/uima/annotator_api.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/annotator_aux.hpp" afterPath="$PROJECT_DIR$/framework/uima/annotator_aux.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/annotator_context.cpp" afterPath="$PROJECT_DIR$/framework/annotator_context.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/annotator_context.hpp" afterPath="$PROJECT_DIR$/framework/uima/annotator_context.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/annotator_dump.cpp" afterPath="$PROJECT_DIR$/test/src/annotator_dump.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/annotator_mgr.cpp" afterPath="$PROJECT_DIR$/framework/annotator_mgr.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/annotator_mgr.hpp" afterPath="$PROJECT_DIR$/framework/uima/annotator_mgr.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/annotator_timing.hpp" afterPath="$PROJECT_DIR$/framework/uima/annotator_timing.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/assertmsg.h" afterPath="$PROJECT_DIR$/framework/uima/assertmsg.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/capability.hpp" afterPath="$PROJECT_DIR$/framework/uima/capability.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/cas.cpp" afterPath="$PROJECT_DIR$/cas/cas.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/cas.hpp" afterPath="$PROJECT_DIR$/cas/uima/cas.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/casdefinition.cpp" afterPath="$PROJECT_DIR$/framework/casdefinition.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/casdefinition.hpp" afterPath="$PROJECT_DIR$/framework/uima/casdefinition.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/casiterator.hpp" afterPath="$PROJECT_DIR$/framework/uima/casiterator.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/caspool.hpp" afterPath="$PROJECT_DIR$/framework/uima/caspool.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/caswriter_abase.hpp" afterPath="$PROJECT_DIR$/framework/uima/caswriter_abase.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/ccsid.hpp" afterPath="$PROJECT_DIR$/framework/uima/ccsid.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/comp_ids.h" afterPath="$PROJECT_DIR$/framework/uima/comp_ids.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/config_param.cpp" afterPath="$PROJECT_DIR$/framework/config_param.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/config_param.hpp" afterPath="$PROJECT_DIR$/framework/uima/config_param.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/config_tools.hpp" afterPath="$PROJECT_DIR$/framework/uima/config_tools.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/configure.h" afterPath="$PROJECT_DIR$/framework/uima/configure.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/consoleui.hpp" afterPath="$PROJECT_DIR$/framework/uima/consoleui.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/cp2ucnvrt.hpp" afterPath="$PROJECT_DIR$/framework/uima/cp2ucnvrt.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/dirwalk.hpp" afterPath="$PROJECT_DIR$/framework/uima/dirwalk.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/dllfile.hpp" afterPath="$PROJECT_DIR$/framework/uima/dllfile.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/dottypesystemwriter.cpp" afterPath="$PROJECT_DIR$/framework/dottypesystemwriter.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/dottypesystemwriter.hpp" afterPath="$PROJECT_DIR$/framework/uima/dottypesystemwriter.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/engine.cpp" afterPath="$PROJECT_DIR$/framework/engine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/engine.hpp" afterPath="$PROJECT_DIR$/framework/uima/engine.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/engine_state.hpp" afterPath="$PROJECT_DIR$/framework/uima/engine_state.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/envvar.hpp" afterPath="$PROJECT_DIR$/framework/uima/envvar.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/err_ids.h" afterPath="$PROJECT_DIR$/framework/uima/err_ids.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/exceptions.cpp" afterPath="$PROJECT_DIR$/framework/exceptions.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/exceptions.hpp" afterPath="$PROJECT_DIR$/framework/uima/exceptions.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/featurestructure.cpp" afterPath="$PROJECT_DIR$/cas/featurestructure.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/featurestructure.hpp" afterPath="$PROJECT_DIR$/cas/uima/featurestructure.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/filename.hpp" afterPath="$PROJECT_DIR$/framework/uima/filename.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/fsfilterbuilder.cpp" afterPath="$PROJECT_DIR$/cas/fsfilterbuilder.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/fsindexrepository.cpp" afterPath="$PROJECT_DIR$/cas/fsindexrepository.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/fsindexrepository.hpp" afterPath="$PROJECT_DIR$/cas/uima/fsindexrepository.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/ftools.hpp" afterPath="$PROJECT_DIR$/framework/uima/ftools.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/importdescription.hpp" afterPath="$PROJECT_DIR$/framework/uima/importdescription.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/internal_aggregate_engine.cpp" afterPath="$PROJECT_DIR$/framework/internal_aggregate_engine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/internal_aggregate_engine.hpp" afterPath="$PROJECT_DIR$/framework/uima/internal_aggregate_engine.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/internal_capability_container.cpp" afterPath="$PROJECT_DIR$/framework/internal_capability_container.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/internal_capability_container.hpp" afterPath="$PROJECT_DIR$/framework/uima/internal_capability_container.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/internal_casdeserializer.cpp" afterPath="$PROJECT_DIR$/cas/internal_casdeserializer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/internal_casserializer.cpp" afterPath="$PROJECT_DIR$/cas/internal_casserializer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/internal_engine_base.cpp" afterPath="$PROJECT_DIR$/framework/internal_engine_base.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/internal_engine_base.hpp" afterPath="$PROJECT_DIR$/framework/uima/internal_engine_base.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/internal_jedii_engine.cpp" afterPath="$PROJECT_DIR$/framework/internal_jedii_engine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/internal_jedii_engine.hpp" afterPath="$PROJECT_DIR$/framework/uima/internal_jedii_engine.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/internal_primitive_engine.cpp" afterPath="$PROJECT_DIR$/framework/internal_primitive_engine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/internal_primitive_engine.hpp" afterPath="$PROJECT_DIR$/framework/uima/internal_primitive_engine.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/internal_serializedcas.hpp" afterPath="$PROJECT_DIR$/cas/uima/internal_serializedcas.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/jni.cpp" afterPath="$PROJECT_DIR$/jni/jni.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/jni_utils.cpp" afterPath="$PROJECT_DIR$/jni/jni_utils.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jni/uima/jni_utils.hpp" afterPath="$PROJECT_DIR$/jni/uima/jni_utils.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/language.cpp" afterPath="$PROJECT_DIR$/framework/language.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/language.hpp" afterPath="$PROJECT_DIR$/framework/uima/language.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/location.hpp" afterPath="$PROJECT_DIR$/framework/uima/location.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/log.cpp" afterPath="$PROJECT_DIR$/framework/log.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/log.hpp" afterPath="$PROJECT_DIR$/framework/uima/log.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/lowlevel_fsheap.cpp" afterPath="$PROJECT_DIR$/cas/lowlevel_fsheap.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/lowlevel_fsheap.hpp" afterPath="$PROJECT_DIR$/cas/uima/lowlevel_fsheap.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/lowlevel_indexdefinition.hpp" afterPath="$PROJECT_DIR$/cas/uima/lowlevel_indexdefinition.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/lowlevel_typesystem.cpp" afterPath="$PROJECT_DIR$/cas/lowlevel_typesystem.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/lowlevel_typesystem.hpp" afterPath="$PROJECT_DIR$/cas/uima/lowlevel_typesystem.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/macros.h" afterPath="$PROJECT_DIR$/framework/uima/macros.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/msg.h" afterPath="$PROJECT_DIR$/framework/uima/msg.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/msgstrtab.h" afterPath="$PROJECT_DIR$/framework/uima/msgstrtab.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/uima/parse_handlers.hpp" afterPath="$PROJECT_DIR$/test/src/uima/parse_handlers.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/uima/parser_config.hpp" afterPath="$PROJECT_DIR$/test/src/uima/parser_config.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/res_abase.cpp" afterPath="$PROJECT_DIR$/framework/res_abase.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/res_abase.hpp" afterPath="$PROJECT_DIR$/framework/uima/res_abase.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/res_annotator.cpp" afterPath="$PROJECT_DIR$/framework/res_annotator.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/res_annotator.hpp" afterPath="$PROJECT_DIR$/framework/uima/res_annotator.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/resmgr.cpp" afterPath="$PROJECT_DIR$/framework/resmgr.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/resmgr.hpp" afterPath="$PROJECT_DIR$/framework/uima/resmgr.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/result_specification.hpp" afterPath="$PROJECT_DIR$/framework/uima/result_specification.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/runAECpp.cpp" afterPath="$PROJECT_DIR$/utils/runAECpp.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/sofaid.hpp" afterPath="$PROJECT_DIR$/cas/uima/sofaid.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/sofamapping.hpp" afterPath="$PROJECT_DIR$/framework/uima/sofamapping.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/sofastream.cpp" afterPath="$PROJECT_DIR$/cas/sofastream.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/sofastreamhandler.hpp" afterPath="$PROJECT_DIR$/cas/uima/sofastreamhandler.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/strconvert.hpp" afterPath="$PROJECT_DIR$/framework/uima/strconvert.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/taespecifier.cpp" afterPath="$PROJECT_DIR$/framework/taespecifier.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/taespecifier.hpp" afterPath="$PROJECT_DIR$/framework/uima/taespecifier.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/taespecifierbuilder.cpp" afterPath="$PROJECT_DIR$/framework/taespecifierbuilder.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/taespecifierbuilder.hpp" afterPath="$PROJECT_DIR$/framework/uima/taespecifierbuilder.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test_cas.cpp" afterPath="$PROJECT_DIR$/test/src/test_cas.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test_engine.cpp" afterPath="$PROJECT_DIR$/test/src/test_engine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test_iterators.cpp" afterPath="$PROJECT_DIR$/test/src/test_iterators.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test_language.cpp" afterPath="$PROJECT_DIR$/test/src/test_language.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test_primitivetypes.cpp" afterPath="$PROJECT_DIR$/test/src/test_primitivetypes.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test_typepriority.cpp" afterPath="$PROJECT_DIR$/test/src/test_typepriority.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/src/test_xmideserialization.cpp" afterPath="$PROJECT_DIR$/test/src/test_xmideserialization.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/token_properties.cpp" afterPath="$PROJECT_DIR$/framework/token_properties.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/token_properties.hpp" afterPath="$PROJECT_DIR$/framework/uima/token_properties.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/typenamespace.cpp" afterPath="$PROJECT_DIR$/cas/typenamespace.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/typenamespace.hpp" afterPath="$PROJECT_DIR$/cas/uima/typenamespace.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/typesystem.cpp" afterPath="$PROJECT_DIR$/cas/typesystem.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/typesystem.hpp" afterPath="$PROJECT_DIR$/cas/uima/typesystem.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/typesystemdescription.cpp" afterPath="$PROJECT_DIR$/framework/typesystemdescription.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/typesystemdescription.hpp" afterPath="$PROJECT_DIR$/framework/uima/typesystemdescription.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/unistrref.cpp" afterPath="$PROJECT_DIR$/framework/unistrref.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/uima/unistrref.hpp" afterPath="$PROJECT_DIR$/framework/uima/unistrref.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/xcasdeserializer_handler.cpp" afterPath="$PROJECT_DIR$/cas/xcasdeserializer_handler.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/xmideserializer.cpp" afterPath="$PROJECT_DIR$/cas/xmideserializer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/xmideserializer_handler.cpp" afterPath="$PROJECT_DIR$/cas/xmideserializer_handler.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/xmideserializer_handler.hpp" afterPath="$PROJECT_DIR$/cas/uima/xmideserializer_handler.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/xmishareddata.hpp" afterPath="$PROJECT_DIR$/cas/uima/xmishareddata.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/xmiwriter.cpp" afterPath="$PROJECT_DIR$/cas/xmiwriter.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/xmltypesystemreader.cpp" afterPath="$PROJECT_DIR$/cas/xmltypesystemreader.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/xmltypesystemreader.hpp" afterPath="$PROJECT_DIR$/cas/uima/xmltypesystemreader.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/xmlwriter.cpp" afterPath="$PROJECT_DIR$/cas/xmlwriter.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cas/uima/xmlwriter.hpp" afterPath="$PROJECT_DIR$/cas/uima/xmlwriter.hpp" />
+    </list>
+    <ignored path="src.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="src" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.3869132">
+              <caret line="174" column="42" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../include/apr-1/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filename.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/uima/filename.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/uima/types.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runAECpp.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/runAECpp.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_cas.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/test_cas.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3136" column="5" selection-start-line="3136" selection-start-column="5" selection-end-line="3136" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_sofa.vcproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/src/test_sofa.vcproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unistr.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/x86_64-linux-gnu/unicode/unistr.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3057" column="0" selection-start-line="3057" selection-start-column="0" selection-end-line="3057" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uimacpp.vcproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uimacpp.vcproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runaecpp.vcproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runaecpp.vcproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/framework/uima/annotator_api.h" />
+        <option value="$PROJECT_DIR$/framework/uima/annotator_aux.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/annotator_context.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/annotator_mgr.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/annotator_timing.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/assertmsg.h" />
+        <option value="$PROJECT_DIR$/framework/uima/capability.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/casdefinition.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/casiterator.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/caspool.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/caswriter_abase.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/ccsid.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/comp_ids.h" />
+        <option value="$PROJECT_DIR$/framework/uima/config_param.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/config_tools.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/configure.h" />
+        <option value="$PROJECT_DIR$/framework/uima/consoleui.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/cp2ucnvrt.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/dirwalk.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/dllfile.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/endian.h" />
+        <option value="$PROJECT_DIR$/framework/uima/dottypesystemwriter.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/engine.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/engine_state.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/envvar.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/err_ids.h" />
+        <option value="$PROJECT_DIR$/framework/uima/exceptions.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/ftools.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/importdescription.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/internal_aggregate_engine.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/internal_capability_container.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/internal_engine_base.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/internal_jedii_engine.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/internal_primitive_engine.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/language.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/location.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/log.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/macros.h" />
+        <option value="$PROJECT_DIR$/framework/uima/msg.h" />
+        <option value="$PROJECT_DIR$/framework/uima/msgstrtab.h" />
+        <option value="$PROJECT_DIR$/framework/uima/res_abase.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/res_annotator.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/resmgr.hpp" />
+        <option value="$PROJECT_DIR$/framework/uima/result_specification.hpp" />
+        <option value="$PROJECT_DIR$/test/src/uima/parse_handlers.hpp" />
+        <option value="$PROJECT_DIR$/test/src/test_cas.cpp" />
+        <option value="$PROJECT_DIR$/test/src/test_engine.cpp" />
+        <option value="$PROJECT_DIR$/test/src/test_language.cpp" />
+        <option value="$PROJECT_DIR$/framework/uima/filename.hpp" />
+        <option value="$PROJECT_DIR$/../include/apr-1/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.uimacpp-app">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="uimacpp" TARGET_NAME="uimacpp" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="uimacpp-app" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="uimacpp" TARGET_NAME="uimacpp-app" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="uimacpp" RUN_TARGET_NAME="uimacpp-app">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="uimacpp" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="uimacpp" TARGET_NAME="uimacpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="uimacpp" RUN_TARGET_NAME="uimacpp-app">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="apr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="uimacpp" TARGET_NAME="apr" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libapr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="uimacpp" TARGET_NAME="libapr" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="libapr-1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="uimacpp" TARGET_NAME="libapr-1" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.uimacpp-app" />
+      <item index="2" class="java.lang.String" itemvalue="Application.uimacpp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.apr" />
+      <item index="4" class="java.lang.String" itemvalue="Application.libapr" />
+      <item index="5" class="java.lang.String" itemvalue="Application.libapr-1" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2d09da3-dfad-429f-b00f-9742a1dd343b" name="Default" comment="" />
+      <created>1435683854235</created>
+      <option name="number" value="Default" />
+      <updated>1435683854235</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18221024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2543235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5018868" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.49811321" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/framework/uima/cp2ucnvrt.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/dirwalk.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/dllfile.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/endian.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/dottypesystemwriter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/engine.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/engine_state.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/envvar.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/err_ids.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/envvars.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/exceptions.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/ftools.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/importdescription.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/internal_aggregate_engine.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/internal_capability_container.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/internal_engine_base.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/internal_jedii_engine.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/internal_primitive_engine.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/language.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/log.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/macros.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/msg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/msgstrtab.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/pragmas.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/res_abase.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/res_annotator.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/resmgr.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/result_specification.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/consoleui.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/location.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cas/uima/annotator_generic.inl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/descriptors/tok.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/descriptors/toktest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/ExampleCas/cas.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="1305" selection-start-line="23" selection-start-column="1305" selection-end-line="23" selection-end-column="1305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/example.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/data/segmenterinput/example.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/uima/parse_handlers.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test_engine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="361" column="0" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test_cas.vcproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test_language.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="188" column="14" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/unicode/unistr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3057" column="0" selection-start-line="3057" selection-start-column="0" selection-end-line="3057" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runaecpp.vcproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uimacpp.vcproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test_sofa.vcproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test_cas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3136" column="5" selection-start-line="3136" selection-start-column="5" selection-end-line="3136" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni/uima/jni.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3863275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/runAECpp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/uima/filename.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../include/apr-1/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3869132">
+          <caret line="174" column="42" selection-start-line="174" selection-start-column="42" selection-end-line="174" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

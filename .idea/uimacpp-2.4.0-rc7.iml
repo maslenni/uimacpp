@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/src/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/src/DaveDetector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/src/ExampleApplication.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/chariter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/putil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/cmemory.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/cmemory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/cstring.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/cstring.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/cwchar.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/cwchar.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/locmap.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/locmap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/putil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/putilimp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uarrsort.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uarrsort.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uassert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ubidi_props.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ubidi_props.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ubidi_props_data.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucase.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucase_props_data.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uchar.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uchar_props_data.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucln.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucln_cmn.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucln_cmn.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucmndata.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucmndata.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv2022.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_bld.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_bld.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_cb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_cnv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_cnv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_err.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_ext.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_ext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_imp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_io.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_io.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_lmb.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u16.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u32.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u7.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u8.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnvbocu.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnvhz.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnvisci.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnvlat1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnvmbcs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnvmbcs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ucnvscsu.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/udata.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/udatamem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/udatamem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/udataswp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/udataswp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uenum.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uenumimp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uhash.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uhash.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uinit.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uinvchar.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uinvchar.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uiter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/umapfile.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/umapfile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/umath.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/umutex.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/umutex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/unistr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/unistr_cnv.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/unistr_props.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/unormimp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uobject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uprops.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uprops.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/uset_imp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ustr_cnv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ustr_cnv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ustr_imp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ustrfmt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ustrfmt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ustring.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/ustrtrns.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/utf_impl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/utrace.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/utracimp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/utrie.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/sources/utrie.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/ucnv.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/ucnv_cb.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/ucnv_err.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/udata.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/uenum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/uiter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/umachine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/unistr1.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/uobject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/urename.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/ustring.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/utrace.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/unicode/utypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/arrayfs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/cas.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/casexception.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/caswriter_abase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/featurestructure.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/fsfilterbuilder.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/fsindex.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/fsindexrepository.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/fsiterator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/internal_casdeserializer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/internal_casimpl.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/internal_casserializer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/internal_fspromoter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/internal_serializedcas.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/internal_typeshortcuts.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/internal_xmlconstants.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/listfs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/lowlevel_fsheap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/lowlevel_index.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/lowlevel_indexcomparator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/lowlevel_indexdefinition.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/lowlevel_indexrepository.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/lowlevel_internal_indexes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/lowlevel_typesystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/sofastream.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/typenamespace.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/typesystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/annotator_generic.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/arrayfs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/cas.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/casconsumer_generic.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/casexception.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/featurestructure.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/fsfilterbuilder.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/fsindex.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/fsindexrepository.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/fsiterator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_casdeserializer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_casimpl.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_casserializer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_fspromoter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_fsvalue_accessors.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_serializedcas.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_typeshortcuts.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/internal_xmlconstants.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/listfs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_defaultfsiterator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_fsfilter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_fsheap.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_index.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexcomparator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexdefinition.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexiterator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexrepository.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_internal_heap.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_internal_indexes.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_internal_indexfactory.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_typedefs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/lowlevel_typesystem.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/sofaid.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/sofastream.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/sofastreamhandler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/type_or_feature.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/typenamespace.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/typesystem.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xcasdeserializer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xcasdeserializer_handler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmideserializer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmideserializer_handler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmishareddata.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmiwriter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmlerror_handler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmltypesystemreader.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmltypesystemwriter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/uima/xmlwriter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xcasdeserializer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xcasdeserializer_handler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xmideserializer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xmideserializer_handler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xmiwriter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xmlerror_handler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xmltypesystemreader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xmltypesystemwriter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/cas/xmlwriter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/annotator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/annotator_context.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/annotator_mgr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/casdefinition.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/casiterator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/caspool.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/config_param.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/consoleui.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/cp2ucnvrt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/dottypesystemwriter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/engine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/exceptions.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/ftools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/internal_aggregate_engine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/internal_capability_container.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/internal_engine_base.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/internal_jedii_engine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/internal_primitive_engine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/language.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/log.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/res_abase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/res_annotator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/resmgr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/strtools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/taemetadata.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/taespecifier.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/taespecifierbuilder.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/timedatetools.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/token_properties.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/typesystemdescription.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/u2cpcnvrt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/annotator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/annotator_abase.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/annotator_aux.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/annotator_context.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/annotator_mgr.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/annotator_timing.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/assertmsg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/capability.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/casdefinition.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/casiterator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/caspool.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/caswriter_abase.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/ccsid.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/comp_ids.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/config_param.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/configure.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/consoleui.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/cp2ucnvrt.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/dirwalk.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/dllfile.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/dottypesystemwriter.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/endian1.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/engine.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/engine_state.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/envvar.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/envvars.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/err_ids.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/exceptions.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/filename.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/ftools.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/importdescription.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/internal_aggregate_engine.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/internal_capability_container.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/internal_engine_base.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/internal_jedii_engine.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/internal_primitive_engine.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/language.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/location.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/log.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/macros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/msg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/msgstrtab.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/pragmas.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/res_abase.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/res_annotator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/resmgr.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/result_specification.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/sofamapping.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/stltools.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/strconvert.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/strtools.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/taemetadata.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/taespecifier.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/taespecifierbuilder.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/text.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/timedatetools.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/token_properties.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/trace.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/types.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/typesystemdescription.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/u2cpcnvrt.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/uima/unistrref.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/framework/unistrref.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jni/jni.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jni/jni_string.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jni/jni_utils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jni/uima/jni.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jni/uima/jni_string.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/jni/uima/jni_utils.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/utils/runAECpp.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/include" />
+          <root url="file://$MODULE_DIR$/lib" />
+          <root url="file://$MODULE_DIR$/src" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/include" />
+          <root url="file://$MODULE_DIR$/lib" />
+          <root url="file://$MODULE_DIR$/src" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnvmbcs.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/umapfile.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_bld.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uenum.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ubidi_props.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_err.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uarrsort.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ubidi_props_data.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ustrfmt.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_bld.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnvisci.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/unistr_cnv.cpp" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/udata.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucln.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/utracimp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_cnv.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv2022.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/cstring.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uset_imp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/udataswp.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_cnv.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/cstring.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/cmemory.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/udataswp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/locmap.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_imp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnvbocu.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/cwchar.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/utrie.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/urename.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/utrace.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/uenum.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/ucnv_err.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ustring.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uinvchar.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_ext.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucln_cmn.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/unistr.cpp" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_io.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucln_cmn.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/udatamem.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uinvchar.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/umath.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u8.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_io.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucase.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u32.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/udatamem.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/utrie.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucase.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uiter.cpp" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/cmemory.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/locmap.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnvlat1.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uarrsort.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ustr_cnv.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucmndata.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_ext.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnvhz.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/umutex.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ustrtrns.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucase_props_data.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucmndata.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ustr_imp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/unistr_props.cpp" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_cb.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/unormimp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uprops.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u16.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ubidi_props.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ustrfmt.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uassert.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnvscsu.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_u7.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/cwchar.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/umutex.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/putilimp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/umapfile.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnv_lmb.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uobject.cpp" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uinit.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uhash.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/udata.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/ucnv_cb.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/uobject.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/unistr1.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/uiter.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/umachine.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/chariter.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/ucnv.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/putil.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/utypes.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/include/unicode/ustring.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uhash.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uchar_props_data.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uchar.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/putil.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uenumimp.h" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ustr_cnv.c" />
+          <root url="file://$MODULE_DIR$/include/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/ucnvmbcs.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/uprops.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/utrace.c" />
+          <root url="file://$MODULE_DIR$/include/unicode/sources/utf_impl.c" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/unistrref.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/stltools.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/taemetadata.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/types.h" />
+          <root url="file://$MODULE_DIR$/src/framework/timedatetools.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/strtools.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/caspool.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/u2cpcnvrt.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/casiterator.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/ftools.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/consoleui.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/cp2ucnvrt.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/typesystemdescription.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/typesystemdescription.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xcasdeserializer_handler.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xmideserializer_handler.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xmiwriter.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmlwriter.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmishareddata.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xmltypesystemreader.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xmlwriter.cpp" />
+          <root url="file://$MODULE_DIR$/src/jni/uima/jni_string.hpp" />
+          <root url="file://$MODULE_DIR$/src/jni/uima/jni.hpp" />
+          <root url="file://$MODULE_DIR$/src/jni/jni_string.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_fsfilter.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_internal_indexfactory.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/fsindex.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexcomparator.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_fspromoter.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/fsfilterbuilder.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexrepository.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_index.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/annotator_generic.inl" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/listfs.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/type_or_feature.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmiwriter.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_casimpl.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_fsvalue_accessors.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmlerror_handler.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexiterator.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xcasdeserializer_handler.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/sofastream.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_casdeserializer.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xcasdeserializer.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_typeshortcuts.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_xmlconstants.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/fsiterator.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_internal_heap.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_internal_indexes.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_casserializer.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/arrayfs.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/casexception.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_defaultfsiterator.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmltypesystemwriter.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmideserializer.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/casconsumer_generic.inl" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_typedefs.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xcasdeserializer.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/internal_fspromoter.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/internal_xmlconstants.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/fsindex.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/caswriter_abase.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/lowlevel_index.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/lowlevel_indexrepository.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/arrayfs.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/internal_serializedcas.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/fsiterator.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/lowlevel_internal_indexes.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/internal_typeshortcuts.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/lowlevel_indexdefinition.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/listfs.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/internal_casimpl.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xmlerror_handler.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/lowlevel_indexcomparator.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/casexception.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xmltypesystemwriter.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmltypesystemreader.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/xmideserializer_handler.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/xmideserializer.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/unistrref.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/typesystem.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/typesystem.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/typenamespace.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/typenamespace.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/token_properties.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/token_properties.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/taespecifierbuilder.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/taespecifierbuilder.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/taespecifier.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/taespecifier.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/strconvert.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/sofastreamhandler.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/sofastream.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/sofaid.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/result_specification.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/resmgr.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/resmgr.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/res_annotator.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/res_annotator.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/res_abase.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/res_abase.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/msgstrtab.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/msg.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/macros.h" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_typesystem.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/lowlevel_typesystem.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_indexdefinition.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/lowlevel_fsheap.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/lowlevel_fsheap.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/log.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/log.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/location.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/language.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/language.cpp" />
+          <root url="file://$MODULE_DIR$/src/jni/uima/jni_utils.hpp" />
+          <root url="file://$MODULE_DIR$/src/jni/jni_utils.cpp" />
+          <root url="file://$MODULE_DIR$/src/jni/jni.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/internal_serializedcas.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/internal_primitive_engine.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/internal_primitive_engine.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/internal_jedii_engine.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/internal_jedii_engine.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/internal_engine_base.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/internal_engine_base.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/internal_casserializer.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/internal_casdeserializer.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/internal_capability_container.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/internal_capability_container.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/internal_aggregate_engine.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/internal_aggregate_engine.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/importdescription.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/ftools.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/fsindexrepository.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/fsindexrepository.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/fsfilterbuilder.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/filename.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/featurestructure.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/featurestructure.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/exceptions.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/exceptions.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/err_ids.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/envvar.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/engine_state.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/engine.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/engine.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/dottypesystemwriter.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/dottypesystemwriter.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/dllfile.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/dirwalk.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/cp2ucnvrt.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/consoleui.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/configure.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/config_param.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/config_param.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/comp_ids.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/ccsid.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/caswriter_abase.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/caspool.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/casiterator.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/casdefinition.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/casdefinition.cpp" />
+          <root url="file://$MODULE_DIR$/src/cas/uima/cas.hpp" />
+          <root url="file://$MODULE_DIR$/src/cas/cas.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/capability.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/assertmsg.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/annotator_timing.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/annotator_mgr.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/annotator_mgr.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/annotator_context.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/annotator_context.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/annotator_aux.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/annotator_abase.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/annotator.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/annotator.cpp" />
+          <root url="file://$MODULE_DIR$/src/utils/runAECpp.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/sofamapping.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/taemetadata.cpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/pragmas.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/text.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/timedatetools.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/trace.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/u2cpcnvrt.hpp" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/envvars.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/endian1.h" />
+          <root url="file://$MODULE_DIR$/src/framework/uima/strtools.hpp" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>
